@@ -1,0 +1,107 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+  
+body{
+    background-image: linear-gradient(rgba(128, 0, 128, 0.411),rgba(0, 0, 255, 0.39));
+}
+
+
+
+.calculator{
+    width: 376px;
+    margin: 100px auto;
+    background-color: rgb(92, 90, 107);
+    border:15px solid rgb(92, 90, 107);
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px 5px black;
+
+
+    h3{
+        font-weight: bold;
+        float: right;
+        padding: 2px;
+        border: 1px solid black;
+        border-radius: 4px;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 75px;
+        text-shadow: 2px 2px 5px green;
+    }
+    
+    .input{
+        width: 350px;
+        height: 80px;
+        margin-bottom: 15px;
+        padding: 0 8px;
+        background-color: rgba(242, 231, 243, 0.986);
+        font-size: 30px;
+        font-weight: bold;
+        text-align: right;
+        letter-spacing: 2.5px;
+        border:5px solid rgb(0, 7, 100);
+        border-radius: 5px;
+    }
+
+    .flex_container{
+        width: 376px;
+        display: flex;
+        flex-flow: wrap;
+        background-color: rgb(0, 7, 100);
+        border:2px solid  rgb(0, 7, 100);
+        border-radius: 5px;
+
+        
+        :hover{
+            box-shadow: 5px 5px 20px 5px black;
+        }
+
+        input{
+            width: 90px;
+            height: 70px;
+            margin: 2px;
+            background-color: rgb(187, 192, 240);
+            text-align: center;
+            border-radius: 8px;
+            font-size: 22px;
+            font-weight: bold;
+
+            :hover{
+                background-color: rgb(0, 0, 0);
+                color: rgb(255, 255, 255);
+            }
+        }
+
+        .btn1{
+            background-color: rgb(169, 236, 163);
+        }
+        .btn2{
+            background-color: rgb(169, 236, 163);
+        }
+        .btn3{
+            background-color: rgb(160, 231, 231);
+        }
+        .btn4{
+            background-color: rgb(160, 231, 231);
+        }
+        .btn8{
+            background-color: rgb(160, 231, 231);
+        }
+        .btn12{
+            background-color: rgb(160, 231, 231);
+        }
+        .btn16{
+            background-color: rgb(160, 231, 231);
+        }
+        .btn20{
+            background-color: rgb(160, 231, 231);
+        }
+        .btn19{
+            background-color: rgb(233, 160, 160);
+        }
+        
+    }
+}

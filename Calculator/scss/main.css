@@ -1,0 +1,117 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 0, 128, 0.411)), to(rgba(0, 0, 255, 0.39)));
+  background-image: linear-gradient(rgba(128, 0, 128, 0.411), rgba(0, 0, 255, 0.39));
+}
+
+.calculator {
+  width: 376px;
+  margin: 100px auto;
+  background-color: #5c5a6b;
+  border: 15px solid #5c5a6b;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 12px 5px black;
+          box-shadow: 5px 5px 12px 5px black;
+}
+
+.calculator h3 {
+  font-weight: bold;
+  float: right;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.calculator h1 {
+  text-align: center;
+  font-size: 75px;
+  text-shadow: 2px 2px 5px green;
+}
+
+.calculator .input {
+  width: 350px;
+  height: 80px;
+  margin-bottom: 15px;
+  padding: 0 8px;
+  background-color: rgba(242, 231, 243, 0.986);
+  font-size: 30px;
+  font-weight: bold;
+  text-align: right;
+  letter-spacing: 2.5px;
+  border: 5px solid #000764;
+  border-radius: 5px;
+}
+
+.calculator .flex_container {
+  width: 376px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  background-color: #000764;
+  border: 2px solid #000764;
+  border-radius: 5px;
+}
+
+.calculator .flex_container:hover{
+  -webkit-box-shadow: 5px 5px 20px 5px black;
+          box-shadow: 5px 5px 20px 5px black;
+}
+
+.calculator .flex_container input {
+  width: 90px;
+  height: 70px;
+  margin: 2px;
+  background-color: #bbc0f0;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.calculator .flex_container input:hover{
+  background-color: black;
+  color: white;
+}
+
+.calculator .flex_container .btn1 {
+  background-color: #a9eca3;
+}
+
+.calculator .flex_container .btn2 {
+  background-color: #a9eca3;
+}
+
+.calculator .flex_container .btn3 {
+  background-color: #a0e7e7;
+}
+
+.calculator .flex_container .btn4 {
+  background-color: #a0e7e7;
+}
+
+.calculator .flex_container .btn8 {
+  background-color: #a0e7e7;
+}
+
+.calculator .flex_container .btn12 {
+  background-color: #a0e7e7;
+}
+
+.calculator .flex_container .btn16 {
+  background-color: #a0e7e7;
+}
+
+.calculator .flex_container .btn20 {
+  background-color: #a0e7e7;
+}
+
+.calculator .flex_container .btn19 {
+  background-color: #e9a0a0;
+}
+/*# sourceMappingURL=main.css.map */
