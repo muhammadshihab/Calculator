@@ -59,8 +59,8 @@ body {
 }
 
 .calculator .flex_container:hover{
-  -webkit-box-shadow: 5px 5px 20px 5px black;
-          box-shadow: 5px 5px 20px 5px black;
+  -webkit-box-shadow: 3px 3px 10px black;
+          box-shadow: 3px 3px 10px black;
 }
 
 .calculator .flex_container input {
